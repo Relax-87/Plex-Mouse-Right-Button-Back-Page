@@ -14,10 +14,8 @@
 // ==/UserScript==
 
 (function() {
-    $('body').on('contextmenu',function () {//禁用掉#demo1的右键菜单
+    $('body').on('contextmenu',function () {
         window.history.back(-1)
         return false
     })
-
-    // Your code here...
 })();
